@@ -7,31 +7,28 @@
     tools:context=".MenuActivity">
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <include
-            layout="@layout/card1_content"
-            android:layout_width="match_parent"
-            android:layout_height="752dp" />
+        <include layout="@layout/card1_content" />
 
         <include layout="@layout/card2_content" />
 
-
         <include layout="@layout/card3_content" />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
+            <Button
+                android:id="@+id/checkout_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/checkout_button" />
 
-    </LinearLayout>
+        </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-        <Button
-            android:id="@+id/Checkout"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content" />
     </LinearLayout>
 </ScrollView>

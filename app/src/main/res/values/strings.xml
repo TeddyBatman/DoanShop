@@ -8,6 +8,13 @@
     <string name="tvq_text">TVQ</string>
     <string name="tps_text">TPS</string>
     <string name="quantity_text">Quantity:</string>
-    <string name="remove_button">Remove</string>
     <string name="add_button">Add</string>
+    <string name="subtotal_show">SubTotal</string>
+    <string name="remove_button">Remove</string>
+    <string name="checkout_button">Checkout</string>
+
+
+    <string name="model3_text">Model 3</string>
+    <string name="models_text">Model S</string>
+    <string name="modelx_text">Model X</string>
 </resources>
