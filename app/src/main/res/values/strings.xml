@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">DoanShop</string>
+    <string name="welcome_text">Welcome To DoanShop</string>
+    <string name="shop_button">Shop!</string>
+    <string name="thanks_text">Thanks for using my app!</string>
+    <string name="total_text">Total</string>
+    <string name="subtotal_text">Subtotal</string>
+    <string name="tvq_text">TVQ</string>
+    <string name="tps_text">TPS</string>
+    <string name="quantity_text">Quantity:</string>
+    <string name="remove_button">Remove</string>
+    <string name="add_button">Add</string>
 </resources>
