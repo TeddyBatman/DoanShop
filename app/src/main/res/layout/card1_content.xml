@@ -21,7 +21,7 @@
             app:srcCompat="@drawable/mdl3" />
 
         <Button
-            android:id="@+id/add_button"
+            android:id="@+id/add_buttonmx"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/model3"
@@ -29,30 +29,27 @@
             android:text="@string/add_button" />
 
         <Button
-            android:id="@+id/remove_button"
+            android:id="@+id/remove_buttonmx"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/add_button"
+            android:layout_below="@+id/model3"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="-48dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="14dp"
             android:text="@string/remove_button" />
 
         <TextView
-            android:id="@+id/subtotal_imagetxt"
+            android:id="@+id/subtotal_imagetxtmx"
             android:layout_width="81dp"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/model3"
-            android:layout_marginStart="33dp"
-            android:layout_marginEnd="105dp"
-            android:layout_marginBottom="-143dp"
-            android:layout_toStartOf="@+id/remove_button"
-            android:layout_toEndOf="@+id/add_button"
+            android:layout_alignEnd="@+id/model3_text"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="241dp"
             android:text="@string/subtotal_show"
             android:textSize="18sp" />
 
         <TextView
-            android:id="@+id/subtotal_count"
+            android:id="@+id/subtotal_countmx"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/model3"
