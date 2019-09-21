@@ -9,7 +9,7 @@
     <string name="tps_text">TPS</string>
     <string name="quantity_text">Quantity:</string>
     <string name="add_button">Add</string>
-    <string name="subtotal_show">SubTotal</string>
+    <string name="quantity_show">Quantity</string>
     <string name="remove_button">Remove</string>
     <string name="checkout_button">Checkout</string>
 

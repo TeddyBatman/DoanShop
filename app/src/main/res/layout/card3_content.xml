@@ -16,6 +16,7 @@
 
         <Button
             android:id="@+id/add_buttonmx"
+            android:onClick="add_modelx"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/modelx"
@@ -24,6 +25,7 @@
 
         <Button
             android:id="@+id/remove_buttonmx"
+            android:onClick="remove_modelx"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/add_buttonmx"
@@ -39,7 +41,7 @@
             android:layout_alignBaseline="@+id/add_buttonmx"
             android:layout_alignEnd="@+id/subtotal_countmx"
             android:layout_marginEnd="101dp"
-            android:text="@string/subtotal_show"
+            android:text="@string/quantity_show"
             android:textSize="18sp" />
 
         <TextView

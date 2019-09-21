@@ -16,6 +16,7 @@
 
         <Button
             android:id="@+id/add_buttonms"
+            android:onClick="add_models"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/models"
@@ -24,6 +25,7 @@
 
         <Button
             android:id="@+id/remove_buttonms"
+            android:onClick="remove_models"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -42,7 +44,7 @@
             android:layout_marginBottom="-142dp"
             android:layout_toStartOf="@+id/remove_buttonms"
             android:layout_toEndOf="@+id/add_buttonms"
-            android:text="@string/subtotal_show"
+            android:text="@string/quantity_show"
             android:textSize="18sp" />
 
         <TextView

@@ -21,7 +21,8 @@
             app:srcCompat="@drawable/mdl3" />
 
         <Button
-            android:id="@+id/add_buttonmx"
+            android:id="@+id/add_buttonm3"
+            android:onClick="add_model3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/model3"
@@ -29,7 +30,8 @@
             android:text="@string/add_button" />
 
         <Button
-            android:id="@+id/remove_buttonmx"
+            android:id="@+id/remove_buttonm3"
+            android:onClick="remove_model3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/model3"
@@ -39,17 +41,18 @@
             android:text="@string/remove_button" />
 
         <TextView
-            android:id="@+id/subtotal_imagetxtmx"
+            android:id="@+id/subtotal_imagetxtm3"
             android:layout_width="81dp"
             android:layout_height="wrap_content"
             android:layout_alignEnd="@+id/model3_text"
             android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
             android:layout_marginBottom="241dp"
-            android:text="@string/subtotal_show"
+            android:text="@string/quantity_show"
             android:textSize="18sp" />
 
         <TextView
-            android:id="@+id/subtotal_countmx"
+            android:id="@+id/subtotal_countm3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/model3"
