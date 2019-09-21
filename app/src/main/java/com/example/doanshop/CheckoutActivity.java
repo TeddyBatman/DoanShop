@@ -15,6 +15,9 @@ public class CheckoutActivity extends AppCompatActivity {
 
         //DecimalFormat df = new DecimalFormat("#.##");
 
+        /**
+         * each one gets the extra from the menu activity and puts it in the textview
+         */
         Bundle bundle = getIntent().getExtras();
         String datas = bundle.getString("subtotal");
         TextView subtotal = findViewById(R.id.subtotal_grab);

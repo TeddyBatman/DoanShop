@@ -28,7 +28,10 @@ public class MenuActivity extends AppCompatActivity {
     }
 
 
-
+    /**
+     *
+     * this adds 1 to the model 3 quantity
+     */
     public void add_model3(View view){
          mAddm3++;
         if (mAddCount != null){
@@ -36,6 +39,10 @@ public class MenuActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     *
+     * this removes 1 from the model 3 quantity
+     */
     public  void remove_model3(View view){
 
             if(mAddm3 <= 0){
@@ -48,7 +55,10 @@ public class MenuActivity extends AppCompatActivity {
 
     }
 
-
+    /**
+     *
+     * this adds 1 to the model s quantity
+     */
     public void add_models(View view){
         mAddms++;
         if (mAddCountS != null){
@@ -56,6 +66,10 @@ public class MenuActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     *
+     * this removes 1 to the model s quantity
+     */
     public  void remove_models(View view){
 
         if(mAddms <= 0){
@@ -68,6 +82,10 @@ public class MenuActivity extends AppCompatActivity {
 
     }
 
+    /**
+     *
+     * this adds 1 to the model x quantity
+     */
     public void add_modelx(View view){
         mAddmx++;
         if (mAddCountX != null){
@@ -75,6 +93,10 @@ public class MenuActivity extends AppCompatActivity {
         }
     }
 
+    /**
+     *
+     * this removes 1 to the model x quantity
+     */
     public  void remove_modelx(View view){
 
         if(mAddmx <= 0){
@@ -87,6 +109,10 @@ public class MenuActivity extends AppCompatActivity {
 
     }
 
+    /**
+     *
+     * open checkout activity
+     */
     public void openCheckout(View view) {
 
         int subtotal = (mAddm3*54990)+(mAddms*108990)+(mAddmx*115990);
