@@ -27,10 +27,7 @@ public class MenuActivity extends AppCompatActivity {
         mAddCountX = (TextView) findViewById(R.id.subtotal_countmx);
     }
 
-    public void openCheckout(View view) {
-        Intent intent1 = new Intent(this, CheckoutActivity.class);
-        startActivity(intent1);
-    }
+
 
     public void add_model3(View view){
          mAddm3++;
@@ -87,6 +84,30 @@ public class MenuActivity extends AppCompatActivity {
             mAddmx--;
             mAddCountX.setText(Integer.toString(mAddmx));
         }
+
+    }
+
+    public void openCheckout(View view) {
+
+        int subtotal = (mAddm3*54990)+(mAddms*108990)+(mAddmx*115990);
+        double tps = subtotal * 0.05;
+        double tvq = subtotal * 0.09975;
+        double total = subtotal + tps + tvq;
+
+        Intent intent1 = new Intent(this, CheckoutActivity.class);
+
+        Bundle bundle = new Bundle();
+        bundle.putString("subtotal",String.valueOf(subtotal));
+        bundle.putString("total",String.valueOf(total));
+        bundle.putString("tvq",String.valueOf(tvq));
+        bundle.putString("tps",String.valueOf(tps));
+
+        intent1.putExtras(bundle);
+        intent1.putExtras(bundle);
+        intent1.putExtras(bundle);
+        intent1.putExtras(bundle);
+
+        startActivity(intent1);
 
     }
 
