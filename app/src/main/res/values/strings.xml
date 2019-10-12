@@ -17,4 +17,5 @@
     <string name="model3_text">Model 3</string>
     <string name="models_text">Model S</string>
     <string name="modelx_text">Model X</string>
+    <string name="title_activity_nicer_menu">NicerMenuActivity</string>
 </resources>
